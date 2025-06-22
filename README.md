@@ -13,7 +13,6 @@ Inside each, you'll find:
 ## Notable Work: Backwoods Development Game
 The source code for the multiplayer game projects is private, but you can check out one of the games here:  
 [🔗 BWL RP – Lincoln County on Roblox](https://www.roblox.com/games/3211545555/BWL-RP-Lincoln-County#!/game-instances)  
-Over 3.7 million plays | Systems include vehicle physics, inventory, GUI, and anti-cheat
 
 ## Contact
 Have questions? Let’s connect:  
