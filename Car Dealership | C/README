@@ -1,0 +1,25 @@
+# Car Database | C Programming
+
+This project is a **car sales tracking system** built in C using **linked lists** and file handling. It was developed as part of a university coursework project to explore data structures, dynamic memory allocation, and user interaction in terminal-based applications.
+
+## Features
+- Add, remove, update, and list car entries
+- Search cars by model, year, or price
+- Save and load data from external .txt file
+- Uses linked lists for dynamic memory management
+- Includes basic input validation and error handling
+
+## Tech Stack
+- Language: C
+- Data Structures: Linked Lists, Structs, Dynamic Memory
+- File I/O: Read/write functionality for persistent storage
+
+## File Structure
+
+```bash
+car-database/
+├── main.c             # Entry point, menu system
+├── car.c              # Function implementations
+├── car.h              # Structs and function prototypes
+├── cars.txt           # Sample data file (input/output)
+└── README.md          # You're here
