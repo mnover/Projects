@@ -1,0 +1,20 @@
+// 
+
+1A4 Chrysler MPV
+1A8 Chrysler SUV
+1B3 Dodge car
+1B4 Dodge SUV
+1B7 Dodge truck
+1F1 Ford compact
+1F2 Ford sedan
+1F3 Ford SUV
+1G1 Chevrolet car
+1G4 Buick sedan
+1HG Honda
+2HG Honda Canada
+3FA Ford Mexico
+5TD Toyota SUV
+5YJ Tesla
+JHM Honda Japan
+JTD Toyota compact
+WDB Mercedes Benz
