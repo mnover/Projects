@@ -1,4 +1,4 @@
-// a .txt file to use as a means to test the car database. it contains the information of all the cars.
+// a .txt file to use as a means to test the car database. this file contains the information of individual cars
 
 1B3NS8V7PRV799033;Purple;146631;$6997.38
 JTDKL0C0XWR607615;Orange;144618;$21475.48
