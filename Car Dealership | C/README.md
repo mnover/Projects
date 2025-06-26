@@ -3,7 +3,7 @@
 This project is a car sales tracking system built in C using linked lists and file handling. It was developed as part of a university coursework project 
 to explore data structures, dynamic memory allocation, and user interaction in terminal based applications. 
 
-The codebase was split into main.c (containing the main function) and pov2.c (containing all other functions). For simplicity and easier compilation, all code has been consolidated into main.c. which makes the pov.h redundant.
+The codebase was split into main.c (containing the main function) and pov2.c (containing all other functions). For simplicity and easier compilation, all code has been consolidated into main.c; which makes the pov.h somewhat redundant.
 
 ## Information
 - Written in C Programming
