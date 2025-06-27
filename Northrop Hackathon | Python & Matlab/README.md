@@ -16,7 +16,9 @@ Once inputs are submitted via the GUI, the data is transmitted to MATLAB for adv
 
 ##  File Structure
 ├── main.py # GUI for mission input
-├── main.m # MATLAB script for path planning and calculations
+
+├── main.m # MATLAB script for path planning and calculations\n
+
 ├── README.md # This file
 
 ## Examples
