@@ -55,6 +55,15 @@ pipeline = Pipeline([
 pipeline.fit(X_train, y_train)
 y_pred = pipeline.predict(X_test)
 
+
 print("=== Baseline Performance ===")
 print(classification_report(y_test, y_pred))
 print("Confusion Matrix:\n", confusion_matrix(y_test, y_pred))
+
+# get specific data
+data = data[data['CurrentTier'].notna()]
+data['CurrentTier'] = data['CurrentTier'].astype(int)
+numeric_cols = data.select_dtypes(include=['int64', 'float64']).columns.tolist()
+numeric_cols = [col for col in numeric_cols if col not in ['AccountNumber', 'CurrentTier']]
+grouped_means = data.groupby('CurrentTier')[numeric_cols].mean()
+grouped_means.to_csv("tier_feature_averages.csv", index=True)
