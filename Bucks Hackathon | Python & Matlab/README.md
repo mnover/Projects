@@ -1,5 +1,4 @@
 # Bucks Fan Engagement | Python and Matlab
-
 This project was developed for the Milwaukee Bucks Hackathon (Jan–Feb 2025). Our team chose the following prompt: 
 
 "analyze fan behaviors, segment customers based on their journey stage and build predictive models to determine the likelihood of fans progressing to higher levels of engagement"
@@ -20,13 +19,13 @@ We leveraged Matlab for data preperation and Python (scikit-learn) for machine l
 
 
 ## File Structure
-```bash
+```
 Bucks Hackathon/
+├── Matlab_dataPacking.m          # The Matlab script
 ├── README.md                     # You're here
-├── tier_feature_averages.csv     # Tier-wise feature summary for clustering
 ├── rawData.csv                   # Sample dataset from MATLAB
 ├── runningstuff.py               # The Python script
-└── Matlab_dataPacking.m          # The Matlab script
+└── tier_feature_averages.csv     # Tier-wise feature summary for clustering
 ```
 
 
