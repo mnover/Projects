@@ -9,14 +9,14 @@ We leveraged Matlab for data preperation and Python (scikit-learn) for machine l
 
 ## Workflow
 1. MatLab Data Preperation
-   - Combined four .csv files into one table with data being associated to user IDs.
-   - Cleaned and deduplicated records, standardized missing values, and extracted new data like attendance ratio and impulse spending.
-   - Converted all data to numbers for ease of implementation in Python.
-   - Exported data to a .csv file.
+   - Combined four .csv files into one table with data being associated to user IDs
+   - Cleaned and deduplicated records, standardized missing values, and extracted new data like attendance ratio and impulse spending
+   - Converted all data to numbers for ease of implementation in Python
+   - Exported data to a .csv file
 2. Python Modeling and Evaluation
    - Loaded and preprocessed data
    - Implemented Skitlearn
-   - Tested Outcomes of Data
+   - Tested outcomes of data
 
 
 ## File Structure
@@ -25,7 +25,7 @@ Bucks Hackathon/
 ├── README.md                     # You're here
 ├── tier_feature_averages.csv     # Tier-wise feature summary for clustering
 ├── rawData.csv                   # Sample dataset from MATLAB
-├── runningstuff.py               # The python script
+├── runningstuff.py               # The Python script
 └── Matlab_dataPacking.m          # The Matlab script
 ```
 
@@ -37,7 +37,7 @@ Bucks Hackathon/
 - Attribute impact testing
 
 
-## Sample output:
+## Sample Output:
 ```
 === Baseline Performance === 
               precision    recall  f1-score   support 
