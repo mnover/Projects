@@ -16,9 +16,9 @@ This project is a cross-platform UAV path optimization tool developed for the No
 ##  File Structure
 ```
 Northrop Hackathon/
-├── main.py # GUI for mission input
+├── README.md # This file
 ├── main.m # Matlab script for path planning and calculations
-└── README.md # This file
+└── main.py # GUI for mission input
 ```
 
 ## Implementation Wishlist
