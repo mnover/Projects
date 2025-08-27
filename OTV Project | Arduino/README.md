@@ -18,9 +18,9 @@ This project was developed as part of the ENES100 Introduction to Engineering De
 ## File Structure
 ```
 OTV Project/
-├── Robot code.ino           # The r3 code
+├── README.md                # This file
 ├── Robot Presentation.pdf   # Our final board that summarizes the steps and outcome of the robot
-└── README.md                # This file
+└── Robot code.ino           # The r3 code
 ```
 
 
