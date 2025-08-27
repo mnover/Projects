@@ -1,36 +1,44 @@
-NOT DONE
 # Bucks Fan Engagement | Python and Matlab
 
-This project was developed for the Milwaukee Bucks Hackathon (Jan–Feb 2025). My team was given two prompts, we chose the second prompt which was to "analyze fan behaviors, segment customers based on their journey stage and build predictive models to determine the likelihood of fans progressing to higher levels of engagement".
+This project was developed for the Milwaukee Bucks Hackathon (Jan–Feb 2025). Our team chose the following prompt: 
 
-We chose Matlab to prepare the data for a clustering approach on skitlearn within Python. It combines:
+"analyze fan behaviors, segment customers based on their journey stage and build predictive models to determine the likelihood of fans progressing to higher levels of engagement"
 
+We leveraged Matlab for data preperation and Python (scikit-learn) for machine learning.
+
+
+## Workflow
 1. MatLab Data Preperation
-   - This is my main contribution
-   - Combined four .csv files into one table, and standardized data
-   - Once data was standardized, extracted useful data and converted all data types to doubles
-   - Sent all data to Python through a new .csv file
+   - Combined four .csv files into one table with data being associated to user IDs.
+   - Cleaned and deduplicated records, standardized missing values, and extracted new data like attendance ratio and impulse spending.
+   - Converted all data to numbers for ease of implementation in Python.
+   - Exported data to a .csv file.
 2. Python Modeling and Evaluation
+   - Loaded and preprocessed data
    - Implemented Skitlearn
    - Tested Outcomes of Data
 
 
 ## File Structure
-
 ```bash
-car-database/
-├── README.md            # You're here
-├── example.md           # The results of a test I ran with manufacturer.txt and pov_database.txt
-├── main.c               # The main function
-├── manufacturer.txt     # Data file for all the models
-├── pov.h                # Header file for the main.c function
-└── pov_database.txt     # Data file for all the individual vehicles
+Bucks Hackathon/
+├── README.md                     # You're here
+├── tier_feature_averages.csv     # Tier-wise feature summary for clustering
+├── rawData.csv                   # Sample dataset from MATLAB
+├── runningstuff.py               # The python script
+└── Matlab_dataPacking.m          # The Matlab script
 ```
 
-## What I wish I could have implemented
-- 
 
-## Example output:
+## Implementation Wishlist
+- Infer who a user's favorite team & player is through ticket sales and merch purchases
+- Fan's growth timeline
+- Better data input system
+- Attribute impact testing
+
+
+## Sample output:
+```
 === Baseline Performance === 
               precision    recall  f1-score   support 
  
@@ -49,5 +57,5 @@ Confusion Matrix:
  [   40    98    14   142    64] 
  [    3    10     3    20    22] 
  [   22   111    66  2649   323] 
- [  580  1027   358  8757 10346]] 
->> 
+ [  580  1027   358  8757 10346]]
+```
