@@ -1,14 +1,29 @@
 # ENES100 Over Terrain Vehicle
+This project was developed as part of the ENES100 Introduction to Engineering Design course in 2023. Our team was tasked to create an Over Terrain Vehicle (OTV) capable of navigating a randomized course and completing mechanical mission tasks autonomously. Our task was to detect dirt and plant a seed in it.
 
-## Overview
-This project was developed as part of the ENES100 Introduction to Engineering Design course in 2023. Our team was tasked to create an Over Terrain Vehicle (OTV) capable of navigating a randomized course and completing mechanical mission tasks — all autonomously, without external input after launch.
 
-The OTV was built around an Arduino-compatible R3 board, four DC motors for drive control, a color sensor, a distance sensor, a motorized arm for physical interaction with mission elements, and a overhead eye that could tell position relative to the center of the board.
+## Information
+  - Written in Arduino (R3)
+  - Autonomous navigation with obstacle detection and avoidance
+  - Modular functions for movement, sensing, and task execution
+
+
+## Devices Used
+- Arduino R3 powered by rechargeable battery
+- DC Motors
+- TCS34725 Color Sensor and Analog Distance Sensor
+- Motorized Arm
+
 
 ## File Structure
-
-```bash
-OTV-Milestone7/
+```
+OTV Project/
 ├── Robot code.ino           # The r3 code
 ├── Robot Presentation.pdf   # Our final board that summarizes the steps and outcome of the robot
-├── README.md                # This file
+└── README.md                # This file
+```
+
+
+## Implementation Wishlist
+  - Improved rock detection system
+  - smarter navigation system
