@@ -25,7 +25,7 @@ car-database/
 └── pov_database.txt     # Data file for all the individual vehicles
 ```
 
-## What I wish I could have implemented
+## Implementation Wishlist
 - Better error capitalization error handling. For example the code thinks "Tesla" and "tesla" are different models. I wanted to make capitalization not matter.
 - Whenever you sell your car, you could input the ZIN number or individual characteristics.
 - A smart purchasing system. The computer compares the car you are selling to other cars in the database to see if it's a good or bad deal.
