@@ -1,7 +1,8 @@
 #  UAV Path Optimization Challenge 
-## Overview
+This project is a cross-platform UAV path optimization tool developed for the Northrop Grumman Path Optimization Challenge. We leveraged Python for a data input system and Matlab to process data.
 
-This project is a cross-platform UAV path optimization tool developed for the Northrop Grumman Path Optimization Challenge. It combines:
+
+## Workflow
 1. A Python GUI (Tkinter) for user-friendly mission input
    - Input mission coordinates (bounding box + UAV starting point)
    - Configure UAV flight specs (height, speed, sensor width, battery life)
@@ -9,18 +10,21 @@ This project is a cross-platform UAV path optimization tool developed for the No
 2. A MATLAB backend for complex path-planning and performance analytics
    - Coverage pattern planning using uavCoveragePlanner
    - Multi-UAV workload distribution with sweep efficiency modeling
-   - Performance statistics include: coverage time, optimized path, 3D kinematics model. (Note: Performance metric code is not included, as it was developed by a teammate)
-
-Once inputs are submitted via the GUI, the data is transmitted to MATLAB for advanced processing, real-time path generation, and performance analysis.
+   - Performance statistics include: coverage time, optimized path, 3D kinematics model. (Note: Performance metric code is not included)
 
 
 ##  File Structure
+```
+Northrop Hackathon/
 ├── main.py # GUI for mission input
+├── main.m # Matlab script for path planning and calculations
+└── README.md # This file
+```
 
-├── main.m # MATLAB script for path planning and calculations\n
+## Implementation Wishlist
+   - Timelapse of path the UAV takes
+   - Battery prediction system
 
-├── README.md # This file
-
-## Examples
+## Output Videos
 [Test Run 1 (YouTube)](https://www.youtube.com/watch?v=bdUL_DCKCQI)  
 [Test Run 2 (YouTube)](https://www.youtube.com/watch?v=2d4qDLctE7w)
