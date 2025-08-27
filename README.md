@@ -7,8 +7,8 @@ Each folder follows the format:
 
 Inside each, you'll find:
 - Source code
-- README with project overview, tools used, and how to run it
-- Screenshots or documentation if available
+- README with Workflow/ information, File structures, Implementation wishlists, and more
+- Screenshots, documentation, output files, etc.
 
 ## Notable Work: Backwoods Development Game
 The source code for the multiplayer game projects is private, but you can check out one of the games here:  
