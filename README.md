@@ -15,5 +15,5 @@ The source code for the multiplayer game projects is private, but you can check 
 [🔗 BWL RP – Lincoln County on Roblox](https://www.roblox.com/games/3211545555/BWL-RP-Lincoln-County#!/game-instances)  
 
 ## Contact
-Have questions? Let’s connect:  
+If you want to reach out, here is my LinkedIn:
 [LinkedIn – Matthew Nover](https://www.linkedin.com/in/matthew-nover/)
