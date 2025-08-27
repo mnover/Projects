@@ -15,7 +15,7 @@ csv_path = sys.argv[1]
 
 # load data
 data = pd.read_csv(csv_path, header=0, low_memory=False)
-data.replace(-1, np.nan, inplace=True) # i used -1 to represent missing values.
+data.replace(-1, np.nan, inplace=True) # used -1 to represent missing values
 
 X = data.drop(columns=['AccountNumber', 'CurrentTier'])
 y = data['CurrentTier']
@@ -54,7 +54,6 @@ pipeline = Pipeline([
 # evaluating
 pipeline.fit(X_train, y_train)
 y_pred = pipeline.predict(X_test)
-
 
 print("=== Baseline Performance ===")
 print(classification_report(y_test, y_pred))
